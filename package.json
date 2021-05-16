@@ -17,9 +17,6 @@
         "vue-fragment": "^1.5.2"
     },
     "devDependencies": {
-        "@fortawesome/free-brands-svg-icons": "^5.15.3",
-        "@fortawesome/free-solid-svg-icons": "^5.15.3",
-        "@nuxtjs/fontawesome": "^1.1.2",
         "@wdio/cli": "^7.5.7",
         "@wdio/local-runner": "^7.5.7",
         "@wdio/mocha-framework": "^7.5.3",

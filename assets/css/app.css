@@ -61,7 +61,7 @@ a:focus {
   background-color: #ffffff00;
 }
 
-code {
+.big-text {
   background-color: #ae87f787;
   color: #ffffff;
   font-weight: 600;
@@ -74,6 +74,7 @@ code {
 
 .navbar-item a {
   color: #fdfdfd;
+  font-weight: lighter;
 }
 
 .navbar-item:hover,
@@ -82,7 +83,7 @@ code {
   box-sizing: border-box;
   width: auto;
   height: auto;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .navbar-item {
@@ -92,13 +93,15 @@ code {
 .navbar-item a:hover,
 .navbar-item a:before {
   color: #ae87f7 !important;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
-
+.is-active {
+  color: #ae87f7 !important;
+}
 .svg-inline--fa:hover {
   color: #ae87f7 !important;
   cursor: pointer;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .logo {
@@ -167,7 +170,7 @@ select {
     left: 0;
     right: 0;
     transform: translateY(-50%);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
     pointer-events: none;
     background-color: #ae87f787 !important;
   }
@@ -176,7 +179,7 @@ select {
   }
   .navbar-burger,
   .navbar-burger:hover {
-    transition: all 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
     border-radius: 5px;
   }
   .navbar-menu.is-active {
@@ -187,16 +190,6 @@ select {
   .columns.is-desktop {
     margin-top: 20%;
   }
-}
-
-.home-enter-active,
-.home-leave-active {
-  transition: opacity 0.5s;
-}
-
-.home-enter,
-.home-leave-active {
-  opacity: 0;
 }
 
 .fade-in {
@@ -250,4 +243,10 @@ select {
   100% {
     opacity: 1;
   }
+}
+
+.socialmedia {
+  display: inline-flex; 
+  text-align: center; 
+  width: 30%
 }

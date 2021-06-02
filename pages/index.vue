@@ -15,7 +15,7 @@
                         Nous sommes Anaëlle et Romane, deux lycéennes pleines
                         d’ambition et de motivation. Nous sommes lauréates du
                         concours
-                        <code>Science Factor</code>, un concours visant à faire
+                        <span class="big-text">&nbsp;Science Factor&nbsp;</span>, un concours visant à faire
                         émerger des idées et des projets d’innovation citoyens
                         chez les étudiants de la sixième à la terminale. Nous
                         nous sommes lancés dans la réalisation de notre projet
